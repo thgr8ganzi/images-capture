@@ -1,0 +1,39 @@
+body {
+    width: 300px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f2ff;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+button {
+    background-color: #4da6ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0080ff;
+}
+
+button:active {
+    background-color: #005ce6;
+}
+button.active {
+    background-color: #005ce6;
+}
